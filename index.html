@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body
+    class="d-flex flex-column align-items-center justify-content-center bg-light"
+  >
+    <form class="m-5 centered" style="width: 50%">
+      <div class="m-3">
+        <label for="petName" class="form-label required">Pet Name</label>
+        <input id="petName" type="text" class="form-control" />
+      </div>
+      <div class="m-3">
+        <label for="petOwner" class="required">Pet Owner</label>
+        <input id="petOwner" type="text" class="form-control" />
+      </div>
+      <div class="m-3">
+        <label for="petSpecie" class="form-label required">Species</label>
+        <input id="petSpecie" type="text" class="form-control" />
+      </div>
+      <div class="m-3">
+        <label for="petBreed" class="form-label required">Breed</label>
+        <input id="petBreed" type="text" class="form-control" />
+      </div>
+      <button
+        id="submitBtn"
+        type="submit"
+        class="btn btn-tertiary bg-warning p-2 m-3"
+      >
+        Submit
+      </button>
+    </form>
+    <div id="petCardsDiv" class="m-5" style="width: 40%; margin: auto"></div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
